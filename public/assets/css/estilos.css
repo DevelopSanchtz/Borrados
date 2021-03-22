@@ -1,0 +1,131 @@
+* {
+    font-family: 'Poppins', Geneva, Tahoma, sans-serif;
+}
+body,html{
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+    margin-top: 25px;
+ }
+ 
+ body::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background:  crimson;
+    
+}
+footer {
+    background-color: rgb(5, 21, 40);
+    color: #fff;
+}
+
+ 
+.fondo-cont {
+    background-color: rgb(5, 21, 40);
+    color: white;
+}
+
+.linea-roja {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(165, 0, 0);
+}
+
+.tamañoLetra {
+    font-size: 10px;
+}
+
+.imgCategorias {
+    width: 100%;
+    height: 200px;
+}
+
+.bordeColumna {
+    border-radius: 15px;
+    padding: 15px;
+    -webkit-box-shadow: 10px 10px 24px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 24px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 24px -12px rgba(0, 0, 0, 0.75);
+}
+
+.imgProductos {
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ImgSeccionMas {
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.solicitarAmigurumi {
+    background-image: url(/assets/images/portada3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.amigurumiNavidad {
+    background-image: url(/assets/images/portada2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.personalizar {
+    border-radius: 15px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contactar {
+    background-image: url(/assets/images/FondoContacto.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 50px;
+}
+
+.mapa {
+    background-image: url(/assets/images/mapa.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 50px;
+}
+
+
+/* footer */
+ 
+footer {
+    padding: 80px 0;
+    text-align: center;
+    color: #fff;
+    background-color: crimson;
+}
+
+footer a {
+    color: #fff;
+ }
+
+footer a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+ }
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+
+footer .redes-facebook{
+    font-size: 40px;
+}
+
+footer .redes-facebook:hover{
+    color: #000000;
+}
+
